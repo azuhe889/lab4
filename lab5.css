@@ -1,0 +1,152 @@
+.container>header {
+    background-image: url('images/sv.jpg');
+    background-size: 100% 100%;
+    height: 0;
+    padding-bottom: 25%;
+}
+
+.container>footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.menu>ul>li
+{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.container>aside {
+    min-height: 150px;
+    float: right;
+    width: 25%;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+
+.vmenu a {
+    background: url('images/dot1.png')no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color:orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.vmenu a:hover {
+    background: url('images/dot2.png')no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 800px;
+}
+
+.container>article {
+    min-height: 800px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+}   
+
+header .name {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px orangered;
+    left:  10px;
+    bottom: 10px;
+    position: absolute;
+}
